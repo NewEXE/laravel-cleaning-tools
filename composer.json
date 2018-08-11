@@ -1,0 +1,25 @@
+{
+    "name": "newexe/laravel-cleaning-tools",
+    "description": "Toolbox of Artisan commands to clean all caches of Laravel project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NewEXE",
+            "email": "v.voloshyn96@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Newexe\\LaravelCleaningTools\\LaravelCleaningToolsProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Newexe\\LaravelCleaningTools\\": "src/"
+        }
+    }
+}
